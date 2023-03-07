@@ -1,10 +1,30 @@
 const express = require('express');
-const path = require('path');
-const db = require('./config/connection');
-const routes = require('./routes');
+//Imports the ApolloServer Class 
+const { ApolloServer } = require("@apollo/server");
+
+
+const { expressMiddleware } = require("@apollo/server/express4");
+const {
+  ApolloServerPluginDrainHttpServer,
+} = require("@apollo/server/plugin/drainHttpServer");
+const http = require("http");
+
+
+
+// const path = require('path');
+// const db = require('./config/connection');
+// const routes = require('./routes');
+
+const PORT = process.env.PORT || 3001;
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const httpServer = http.createServer(app);
+
+
+
+
+
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
