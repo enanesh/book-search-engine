@@ -2,19 +2,25 @@
 
 
 
-[![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
 
 
 
 
  
   ## Description
- 
-Welcome to my personal portfolio! This repository contains the code and assets for my personal website, which showcases my skills, projects, and experience.
+  
+Welcome to the Book Search Engine Github repository! This project is a powerful search engine for books that has been designed to offer a seamless user experience, thanks to the use of cutting-edge technologies such as Apollo Server and GraphQL.
+
+With this project, we have set up an Apollo Server that uses GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API. This provides greater flexibility and allows for more efficient data retrieval and manipulation.We have also modified the existing authentication middleware so that it works seamlessly in the context of a GraphQL API. Additionally, we have created an Apollo Provider that enables requests to communicate with the Apollo Server, resulting in a faster and more streamlined user experience.
+
 
  
- This app was deployed using Github pages:https://enanesh.github.io/edna-portfolio-react/
+ This app was deployed using Heroku:
 
 
 
