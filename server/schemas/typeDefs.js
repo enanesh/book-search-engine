@@ -1,6 +1,6 @@
 const typeDefs = `#graphql
  
-    type user{
+    type User{
      _id: ID
     username: String
     email: String
