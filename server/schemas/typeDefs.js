@@ -4,8 +4,9 @@ const typeDefs = `#graphql
      _id: ID
     username: String
     email: String
+    password: String
     bookCount: Int
-    savedBooks: [String]
+    savedBooks: [Book]
     },
 
     type Book{
@@ -28,7 +29,7 @@ const typeDefs = `#graphql
 
     type Mutation{
         login(email:String!,password:String!):Auth
-        addUser(username:String!, password:String!):Auth
+        addUser(username:String!, email:String!, password:String!):Auth
         saveBook(forSale:String!, bookId:String! ,link:String!, title:String!):Book
         removeBook(bookId:ID!):Book
     },
