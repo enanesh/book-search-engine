@@ -44,7 +44,7 @@ To be able to run this application you'll need
 
 
 ```sh
-git clone https://github.com/enanesh/edna-portfolio-react
+git clone https://github.com/enanesh/book-search-engine.git
 
 git status 
 ```
@@ -53,7 +53,11 @@ git status
 
 ### Step 2:
 
-In the terminal run the command `npm run start`
+In the terminal run the command `npmi` from the global file, also I would recommend to do the same into the `Client` file
+and in the `Server` file. 
+Note: Is important to check that the version for Apollo server v.4. Since v.3 is lready deprecated and it would break some parts of the code if is not 
+the right one. 
+
 
 
 
@@ -61,26 +65,14 @@ In the terminal run the command `npm run start`
 
 - Node.js  https://www.stanleyulili.com/node/node-modules-import-and-use-functions-from-another-file/
 - Express: https://expressjs.com/
-
 - nodemon: https://www.npmjs.com/package/nodemon
-- webvitals: https://web.dev/vitals/
-- react: https://reactjs.org/
-- react-scroll: https://www.npmjs.com/package/react-scroll
-- react-scripts: https://www.npmjs.com/package/react-scripts
-- react-icons: https://react-icons.github.io/react-icons/
-- react-dom : https://www.npmjs.com/package/react-dom
-- Yash Patel: https://www.youtube.com/watch?v=LpZrAjU6Hhk&t=6370s
-
 
 ## Technology Used
 - JavaScript
 - Express node library
 - nodemon
-- react
-- react-icons
-- react-dom
-- react-scroll
-- web-vitals
+
+
 
 
 Contributing
