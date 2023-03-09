@@ -53,13 +53,42 @@ git status
 
 ### Step 2:
 
-In the terminal run the command `npmi` from the global file, also I would recommend to do the same into the `Client` file
-and in the `Server` file. 
+In the terminal run the command `npm i` from the global file,
+
+Into the `Client` file
+
+`npm i @testing-library/jest-dom`\
+`npm i @testing-library/react`\
+`npm i @testing-library/user-event`\
+`npm i react`\
+`npm i react-dom`\
+`npm i react-scripts`\
+`npm i web-vitals`\
+`npm i react-router-dom`\
+`npm i jwt-decode`\
+`npm i react-bootstrap`\
+`npm i bootstrap`\
+
+In the `Server` file.
+
+ `npm i @apollo/server`\
+ `npm i bcrypt`\
+ `npm i express`\
+ `npm i graphql`\
+ `npm i jsonwebtoken`\
+ `npm i mongoose`\
+ `npm i -D nodemon`\
+ 
+ 
 Note: Is important to check that the version for Apollo server v.4. Since v.3 is lready deprecated and it would break some parts of the code if is not 
 the right one. 
 
 
+### Step 3
 
+To be able to run the app you'll need to do an `npm run build` and then to run it to developent run the command `npm i run develop`.
+
+Note: You can check this on the "scripts' of the  package.json from the global file .
 
 ## Credits
 
@@ -71,11 +100,16 @@ the right one.
 - JavaScript
 - Express node library
 - nodemon
+- express
+- GraphQl
+- jsonwebtoken
+- mongoose
+- nodemon
 
 
 
 
-Contributing
+## Contributing
 I am not currently accepting contributions to this project, but I welcome feedback and suggestions for improvement.
 
 
