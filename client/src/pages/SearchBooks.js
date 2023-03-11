@@ -54,6 +54,8 @@ const SearchBooks = () => {
         title: book.volumeInfo.title,
         description: book.volumeInfo.description,
         image: book.volumeInfo.imageLinks?.thumbnail || '',
+        forSale: book.saleInfo?.saleability,
+        link: book.selfLink
       }));
 
       setSearchedBooks(bookData);
@@ -76,15 +78,15 @@ const SearchBooks = () => {
     }
 
     try {
-      const response = await saveBook({
+      const request = {
         variables: {
-          input: bookToSave,
-        },
-        
-      });
+          ...bookToSave,
+        }
+      };
+      const response = await saveBook(request);
 
-      if (!response.ok) {
-        throw new Error('something went wrong!');
+      if (!response.data) {
+        throw new Error('Request failed!');
       }
 
       // if book successfully saves to user's account, save book id to state
