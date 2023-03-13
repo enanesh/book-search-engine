@@ -7,7 +7,7 @@ import { SAVE_BOOK } from '../utils/mutations';
 import { useMutation } from "@apollo/client";
 
 
-
+//Sets the connection to googleBooks Api
 const searchGoogleBooks = (query) => {
   return fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
 };

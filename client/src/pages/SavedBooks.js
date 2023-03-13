@@ -8,9 +8,6 @@ import { useQuery } from '@apollo/client';
 
 
 
-
-
-
 const SavedBooks = () => {
 
   const { loading, data } = useQuery(GET_ME, {
