@@ -16,11 +16,11 @@
   
 Welcome to the Book Search Engine Github repository! This project is a powerful search engine for books that has been designed to offer a seamless user experience, thanks to the use of cutting-edge technologies such as Apollo Server and GraphQL.
 
-With this project, we have set up an Apollo Server that uses GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API. This provides greater flexibility and allows for more efficient data retrieval and manipulation.We have also modified the existing authentication middleware so that it works seamlessly in the context of a GraphQL API. Additionally, we have created an Apollo Provider that enables requests to communicate with the Apollo Server, resulting in a faster and more streamlined user experience.
+With this project, I have set up an Apollo Server that uses GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API. This provides greater flexibility and allows for more efficient data retrieval and manipulation.I have also modified the existing authentication middleware so that it works seamlessly in the context of a GraphQL API. Additionally, I have created an Apollo Provider that enables requests to communicate with the Apollo Server, resulting in a faster and more streamlined user experience.
 
 
  
- This app was deployed using Heroku:
+ This app was deployed using Heroku: https://dashboard.heroku.com/apps/immense-lowlands-26942/resources
 
 
 
@@ -31,6 +31,16 @@ With this project, we have set up an Apollo Server that uses GraphQL queries and
 - [Credits](#credits)
 - [Technology Used](#technology-used)
 - [License](#license)
+
+
+
+
+## Screenshots
+
+
+<img width="1437" alt="Screenshot 2023-03-12 at 10 56 07 PM (2)" src="https://user-images.githubusercontent.com/111031708/224625253-fd562c78-f813-4d08-86a9-db2c62af9354.png">
+<img width="1436" alt="Screenshot 2023-03-12 at 11 20 12 PM (2)" src="https://user-images.githubusercontent.com/111031708/224625262-f4fe8e8a-893f-411a-9674-6458f5977d71.png">
+
 
 
 
