@@ -20,7 +20,7 @@ With this project, I have set up an Apollo Server that uses GraphQL queries and 
 
 
  
- This app was deployed using Heroku: https://dashboard.heroku.com/apps/immense-lowlands-26942/resources
+ This app was deployed using Heroku: https://immense-lowlands-26942.herokuapp.com/
 
 
 
